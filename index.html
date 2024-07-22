@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stock Broker Dashboard</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div id="login">
+        <h2>Login</h2>
+        <input type="email" id="email" placeholder="Enter your email">
+        <button onclick="login()">Login</button>
+    </div>
+    <div id="dashboard" style="display:none;">
+        <h2>Dashboard</h2>
+        <div id="subscribe">
+            <h3>Subscribe to Stocks</h3>
+            <div id="stock-list"></div>
+        </div>
+        <div id="prices">
+            <h3>Stock Prices</h3>
+            <div id="price-list"></div>
+        </div>
+    </div>
+    <script src="scripts.js"></script>
+</body>
+</html>
